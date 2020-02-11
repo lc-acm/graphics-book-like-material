@@ -1,4 +1,4 @@
-# Intro to Vectors
+# Chapter 1: Intro to Vectors
 
 ## What *is* a Vector?
 
