@@ -2,13 +2,13 @@
 
 Many of us haven't taken geometry classes since 8th grade. Being a graphics course, CS 367 depends pretty heavily on geometric rules. Let's take some time to go over the very basics.
 
-## Basic Trigonometry
+## 0.1 Basic Trigonometry
 
 A lot of the ways that we can deal with graphical computation depends on trigonometric fuctions - sine, cosine, and tangent.
 
 These are so integral to this course that we're going to define them in painful detail.
 
-### Definitions
+### 0.1.1 Definitions
 
 Given a triangle angle as below:
 
@@ -35,7 +35,7 @@ Additionally, the tangent of an angle is related to the sine and cosine. tan(&th
 
 When in doubt, remember: **SOH CAH TOA:** **S**ine = **O**pposite/**H**ypotenuse, **C**osine = **A**djacent/**H**ypotenuse, and **T**angent = **O**pposite/**A**djacent
 
-### Circles & Values
+### 0.1.2 Circles & Values
 
 In Graphics, you'll be playing around with cirlces A LOT! You'll mostly be using unit circles as shown below:
 ![0-6-unitCircle]()
@@ -46,27 +46,27 @@ The unit circle (so named because of the radius of 1 unit), connects a lot of ou
 When graphed, the sine and cosine functions create waves that are periodic. These waves are the result of the periodic nature of angles and as you go around the circle, you follow the wave it forms as shown in the animation below:
 ![0-8-animation]()
 
-## Distance Formula
+## 0.2 Distance Formula
 
 It's important to have a notion of distance. In this course we will be using something called Euclidian Distance which is defined through the Pythagorean Theorem. When finding the distance between 2 points, you must use something called the distance formula so consider the picture below:
 ![0-9-euclid]()
 
 If you have a point 'a' and a point 'b' and you want to find the distance between them, then the distance is the square root of the (difference between the x-values squared + the difference between the y-values squared).  
 
-## Transformations
+## 0.3 Transformations
 
 For your first lab, you've probably been asked to spin a unit-cirlce wheel.  The 3 types of transformations we will be describing here fall into the category of Affine transformations (we will describe more later when we get into linear algebra stuff). 
 In completing this task, you will need to alter the points on the circle in some way in order to make it spin. Here are some of the most useful tools you'll need to do so.
 
 In this first introduction to affine transformations, we'll be considering the ways that transformations affect points. Because lines and shapes are made up of (infinite) collections of points, shapes, lines, and other objects will be affected the same way as points. You will see plenty of this later on in this course.
 
-### Translation
+### 0.3.1 Translation
 
 The first, and simplest kind of affine transformation is a translation. As its name may suggest to you, a translation moves, or "translates" a point across the X-Y plane. The point will be moved by &Delta; x in the X-direction and  &Delta; y in the Y-direction. Using the common "ordered-pair" notation, a point (x,y) will become (x &Delta; x +, y +&Delta; y) under a translation.
 
 ![0-10-translation]()
 
-### Rotation
+### 0.3.2 Rotation
 
 The next kind of affine transformation we're going to care about is a rotation. Rotation of a point is a bit more complex than translation. When we translate, we need to know one thing - how much we want to move each point. On the other hand, when we're rotating a point, we need to know two things: the angle we want to rotate by, and the origin, about which we're rotating. 
 
@@ -76,7 +76,7 @@ The transformed coordinates of point (x,y) will become (x * cos(&theta;) - y * s
 
 ![0-11-rotation]()
 
-### Scaling
+### 0.3.3 Scaling
 
 The final kind of transformation we'll consider is a scaling. To think about scaling, we'll need to abandon our thinking about points and start to consider shapes. Consider a polygon with three vertices (a triangle). The vertices are at points (x1,y1), (x2,y2), and (x3,y3). We want to scale this polygon by a factor of *k*. What we do is multiply each coordinate by *k*, to find the new coordinates: (k * x1, k * y1), (k * x2, k * y2), and (k * x3, k * y3)
 
