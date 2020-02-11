@@ -77,3 +77,7 @@ The transformed coordinates of point (x,y) will become (x * cos(&theta;) - y * s
 ![0-11-rotation]()
 
 ### Scaling
+
+The final kind of transformation we'll consider is a scaling. To think about scaling, we'll need to abandon our thinking about points and start to consider shapes. Consider a polygon with three vertices (a triangle). The vertices are at points (x1,y1), (x2,y2), and (x3,y3). We want to scale this polygon by a factor of *k*. What we do is multiply each coordinate by *k*, to find the new coordinates: (k * x1, k * y1), (k * x2, k * y2), and (k * x3, k * y3)
+
+![0-12-scale]()
