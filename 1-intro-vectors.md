@@ -1,18 +1,18 @@
 # Chapter 1: Intro to Vectors
 
-## What *is* a Vector?
+## 1.1 What *is* a Vector?
 
 
-## Vector Notation
+## 1.2 Vector Notation
 
-## Vector Operations
+## 1.3 Vector Operations
 
-### Addition
+### 1.3.1 Addition
 
-### Scalar Multiplication
+### 1.3.2 Scalar Multiplication
 
-### The Dot Product
+### 1.3.3 The Dot Product
 
-### The Cross Product
+### 1.3.4 The Cross Product
 
-## Why Should I Care?
+## 1.4 Why Should I Care?
