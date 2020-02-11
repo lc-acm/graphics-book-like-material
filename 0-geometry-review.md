@@ -44,7 +44,7 @@ The unit circle (so named because of the radius of 1 unit), connects a lot of ou
 ![0-7-xy]()
 
 When graphed, the sine and cosine functions create waves that are periodic. These waves are the result of the periodic nature of angles and as you go around the circle, you follow the wave it forms as shown in the animation below:
-![0-8-animation](https://www.mathwarehouse.com/animated-gifs/images/graph-of-sine-from-unit-circle.gif)
+![0-8-animation](/img/0/trig_anim.gif)
 
 ## 0.2 Distance Formula
 
