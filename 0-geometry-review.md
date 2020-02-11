@@ -68,4 +68,12 @@ The first, and simplest kind of affine transformation is a translation. As its n
 
 ### Rotation
 
+The next kind of affine transformation we're going to care about is a rotation. Rotation of a point is a bit more complex than translation. When we translate, we need to know one thing - how much we want to move each point. On the other hand, when we're rotating a point, we need to know two things: the angle we want to rotate by, and the origin, about which we're rotating. 
+
+To rotate a point (x,y) about an origin (x0, y0), first, connect the point (x,y) to the point (x0,y0). Then, rotate the line you've created by your rotation angle &theta;, keeping the (x0, y0) end fixed. The end of the line will be the new (x,y).
+
+The transformed coordinates of point (x,y) will become (x * cos(&theta;) - y * sin(&theta;), x * cos(&theta;) + y * cos(&theta;))
+
+![0-11-rotation]()
+
 ### Scaling
