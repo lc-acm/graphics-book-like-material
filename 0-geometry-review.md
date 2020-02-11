@@ -58,9 +58,13 @@ If you have a point 'a' and a point 'b' and you want to find the distance betwee
 For your first lab, you've probably been asked to spin a unit-cirlce wheel.  The 3 types of transformations we will be describing here fall into the category of Affine transformations (we will describe more later when we get into linear algebra stuff). 
 In completing this task, you will need to alter the points on the circle in some way in order to make it spin. Here are some of the most useful tools you'll need to do so.
 
+In this first introduction to affine transformations, we'll be considering the ways that transformations affect points. Because lines and shapes are made up of (infinite) collections of points, shapes, lines, and other objects will be affected the same way as points. You will see plenty of this later on in this course.
+
 ### Translation
 
+The first, and simplest kind of affine transformation is a translation. As its name may suggest to you, a translation moves, or "translates" a point across the X-Y plane. The point will be moved by &Delta; x in the X-direction and  &Delta; y in the Y-direction. Using the common "ordered-pair" notation, a point (x,y) will become (x &Delta; x +, y +&Delta; y) under a translation.
 
+![0-10-translation]()
 
 ### Rotation
 
