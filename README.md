@@ -12,7 +12,7 @@ This "book" contains chapters on the following topics:
 1. Intro to Vectors
 3. FPT Functions
 4. Structuring and Storing Data in C
-5. Intro to Matrices
+5. Intro to Matrices (entering the matrix)
 6. Basic Drawing and Movement
 7. Scan-line Algorithm (and limitations)
 8. Drawing from Files & 2D Tools
