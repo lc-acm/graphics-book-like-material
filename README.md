@@ -8,7 +8,7 @@ This guide is NOT a replacement for attending class, and will not provide soluti
 
 This "book" contains chapters on the following topics:
 
-0. Geometry & Trigonometry Review (With Code!)
+0. Geometry & Trigonometry Review
 1. Intro to Vectors
 3. FPT Functions
 4. Structuring and Storing Data in C
