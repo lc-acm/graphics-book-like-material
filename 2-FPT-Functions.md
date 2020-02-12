@@ -28,7 +28,7 @@ Because making a point on the window (using `G_point(x, y);`)would only make a t
 
 ## 2.3 Colors
 
-Making colors is really simple in FPT. It uses the RGB standard of colors from 0 to 1 so (0, 0, 0) would be black and (1, 1, 1) would be white. If you want to use other colors you'll need to use a combination of numbers from 0 to 1 for the red, green, and blue values. Here are a few combinations that create some nice colors:
+Making colors is really simple in FPT. It uses the RGB standard of colors from 0 to 1 *not the standard from 0 to 255* so (0, 0, 0) would be black and (1, 1, 1) would be white. If you want to use other colors you'll need to use a combination of numbers from 0 to 1 for the red, green, and blue values. Here are a few combinations that create some nice colors:
 
 Purple: `G_rgb(0.7, 0.7, 1);`
 Pink:   `G_rgb(0.9, 0.4, 0.8);`
