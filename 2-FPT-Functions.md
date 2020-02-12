@@ -67,6 +67,8 @@ If you want to end your program at any point and close the graphics window you'l
 `exit(0);`
 
 ## Compiling and Running Programs
-You'll be using the command line quite a bit in class and you'll be compiling and running all of your programs from there. You should be a little familiar with using the command line from CS 1 but this class introduces acom and ./a.out. If you're using a personal computer and it's a Mac, you'll need to have XQuartz open in order for this to work and if you're using a Windows computer you'll need to run `export DISPLAY=:0` and have Xming open.  If you're getting a bunch of segmentation faults when you initially try to run your program and it works on one in the lab, this may be your issue. 
+You'll be using the command line quite a bit in class and you'll be compiling and running all of your programs from there. You should be a little familiar with using the command line from CS 1 but this class introduces acom and ./a.out. 
+
+If you're using a personal computer and it's a Mac, you'll need to have XQuartz open in order for this to work and if you're using a Windows computer you'll need to run `export DISPLAY=:0` and have Xming open.  If you're getting a bunch of segmentation faults when you initially try to run your program and it works on one in the lab, this may be your issue. 
 
 Now that you're ready to run a program, use `acom fileName` to compile the program and then `./a.out` to run it. Once you start importing files that your program will be reading, you'll put filenames next to ./a.out, but for now you should be good to go!
