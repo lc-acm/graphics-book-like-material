@@ -10,6 +10,8 @@ These are all true, and are in fact different ways of stating the nature of vect
 
 The most important thing to remember is that vectors are a mathematical tool that we can use to help us do geometry and physics and (in this course) model and transform objects in a computer simulation.
 
+Another thing that's important to keep on our minds is what we mean when we call something a *scalar*. For us, a *scalar* is just a number (for our purposes, a real number). This term will be useful later on in this chapter.
+
 Let's go back to that physical definition of a vector: **A vector is a thing that has magnitude and direction**. Unpacking that statement a bit, we can think of a vector like an arrow, pointing in a direction, as shown below:
 
 ![1-1-arrow]()
@@ -60,14 +62,66 @@ Most people use one of three sets of notation to describe vectors: columnar list
 
 Something important to note is that when we use unit vectors, what we're doing is rewriting our vector as a scalar (number)times a unit vector, which is a vector of length one. We usually assign a unit vector to each axis in our vector space, and we denote a vector as a unit vector with a "hat".
 
+For this course, we'll focus on unit vector notation and columnar list notation.
+
 ## 1.3 Vector Operations
+
+What good would vectors be if we couldn't manipulate them in ways that follow predictable and useful rules? The answer is absolutely none. In fact, there are several different types of operations we can perform on vectors, most of which are analogous to other things you may have seen before.
 
 ### 1.3.1 Addition
 
-### 1.3.2 Scalar Multiplication
+The first important operation with vectors is vector addition. There's a geometric rule and a numerical rule for vector multiplication, and they end up saying the same thing in two different ways. Let's start with the geometric interpretation.
 
-### 1.3.3 The Dot Product
+Take two vectors, *a* and *b*. To add them, place them tip-to-tail, and the resulting vector *s* (for sum) will be the vector that connects the tail of *a* to the tip of *b*. This rule works in reverse as well. See the image below:
 
-### 1.3.4 The Cross Product
+![1-8-geom-add]()
+
+If this feels weird to you, remember that two vectors are identical if their magnitude and orientation are identical, regardless of where their tail starts.
+
+For numerical addition, you can simply add corresponding terms of a vector, as shown below. Note that this only works in *(x,y)* form, not in *(r, &theta;)* form.
+
+![1-9-numeric-add]()
+
+Adding two vectors represents combining the effects of the two vectors. Note that orientation matters. When adding vectors in different directions, somewhat counterintuitive things sometimes occur. See below for some examples:
+
+![1-10-directionality]()
+
+### Multiplication
+
+Multiplication is another frequently used mathematical vector operation. Somewhat confusingly, there are actually three completely different ways to multiply with vectors. Each of them is useful for different reasons.
+
+#### 1.3.2 Scalar Multiplication
+
+The first and most simple means of multiplication involving vectors is called scalar multiplication. As it may sound, scalar multiplication is multiplying a vector by a scalar. The way we do this numerically is to multiply each term of the vector by the scalar. Let's consider vector *a* and scalar *k*:
+
+![1-11-scalar-num]()
+
+As with addition, the scalar multiplication has a geometric interpretation. It lengthens (or shortens) a vector by a factor of *k*, as below:
+
+![1-12-scalar-geom]()
+
+Okay, so we know how to multiply a vector by a scalar. That sounds useful, but do you know what else sounds useful? Multiplying a vector by a vector! We can actually do that in two ways - one is to multiply a vector by a vector to get a scalar, and one is to multiply a vector by a vector to get a vector. Let's cover each of them:
+
+#### 1.3.3 The Dot Product
+
+The *Dot Product* is a way of multiplying a vector by a vector to get a scalar. There are once again, both numerical and geometric interpretations to the dot product. The dot product is especially useful because of one of its mathematical properties. We'll see that soon.
+
+To take the dot product of two vectors *a* and *b*, we multiply corresponding terms and add:
+
+![1-13-dotprod-num]()
+
+It also turns out that dot products have another, equivalent definition, connecting the dot product to the angle between two vectors:
+
+![1-14-dotprod-cos]()
+
+Now, we have a useful definition of an operation! If we know the two vectors, we can figure out how they're relatively oriented.
+
+As an exercise, see if you can figure out which angle makes the dot product 0, and which angle makes the dot product |a| * |b|. Hint: When is the cosine 0? When is the cosine 1?
+
+Like the other operations, the dot product also has a geometric interpretation. The dot product represents the area of the parallelogram spanned by the two vectors:
+
+![1-15-dotprod-polygon]()
+
+#### 1.3.4 The Cross Product
 
 ## 1.4 Why Should I Care?
