@@ -14,6 +14,9 @@ Let's go back to that physical definition of a vector: **A vector is a thing tha
 
 ![1-1-arrow]()
 
+We can think about the vector having an action in the direction in which it is pointing. Something important to note is that with vectors, position does not matter. All that matters is magnitude and direction. Both of the vectors shown below are identical, despite their different positioning. 
+
+![1-2-identity]()
 
 ## 1.2 Vector Notation
 
