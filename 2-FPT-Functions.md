@@ -1,6 +1,6 @@
 # Chapter 2: FPT Functions
 
-The FPT graphics functions will be new for most of you. FPT stands for "Freshman Programming Toolkit" and is Jeff's version of a graphics library that allows us to draw graphics on most operating systems in C. If you need help downloading FPT to your personal computer, visit LINK
+The FPT graphics functions will be new for most of you. FPT stands for "Freshman Programming Toolkit" and is Jeff's version of a graphics library that allows us to draw graphics on most operating systems in C. If you need help downloading FPT to your personal computer, visit [FPT Tutorial](https://github.com/lc-acm/fpt)
 
 ## Setting up a window
 
@@ -20,7 +20,11 @@ You could also make a filled rectangle (using `G_fill_rectangle();`) or a circle
 
 `G_polygon(x[], y[], numPoints);`
 
+Because making a point would 
+
 ## Colors
 
-Making colors is really simple in FPT. It uses the RGB standard of colors from 0-1 so (0,0,0) would be white and (1,1,1) would be black. 
+Making colors is really simple in FPT. It uses the RGB standard of colors from 0-1 so (0, 0, 0) would be black and (1, 1, 1) would be white. 
 ## Other Useful Tools
+
+## Compiling and Running Programs
