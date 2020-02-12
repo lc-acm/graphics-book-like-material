@@ -18,7 +18,13 @@ We can think about the vector having an action in the direction in which it is p
 
 ![1-2-identity]()
 
+While both of our vector examples were two-dimensional, there's nothing special about 2-D vectors (other than we can easily think about them in a computer screen or sheet of paper), and you will frequently be dealing with 3-D or even higher-dimensional vectors. The following image shows a 3-D vector.
+
+![1-3-3d]()
+
 ## 1.2 Vector Notation
+
+In order to rigorously talk about vectors in a way that is helpful and meaningful, we need to formalize some notational standards around the way we're going to think about vectors.
 
 ## 1.3 Vector Operations
 
