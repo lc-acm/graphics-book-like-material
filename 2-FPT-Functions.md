@@ -76,8 +76,8 @@ Now that you're ready to run a program, use `acom fileName` to compile the progr
 ## 2.6 A finished product
 Here is an example of what a simple program drawing a circle, polygon, and rectangle on a black screen would look like. 
 
-![2-1-shapesCode](shapesCode.png),
+![2-1-shapesCode](img/2-1-shapesCode.png),
 
 Once you run this program from the command line (as shown in the picture above) it will look like this
 
-![2-2-output](output.png),
+![2-2-output](img/2-2-output.png),
