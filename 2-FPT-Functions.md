@@ -16,15 +16,55 @@ Now for the fun stuff! There are plenty of commands for making all types of shap
 
 `G_rectangle(x1, y1, width, height);`
 
-You could also make a filled rectangle (using `G_fill_rectangle();`) or a circle. FPT also allows you to make polygons. In order to make a polygon of any size, you need to have an array of all of the x-points and an array of all of the y-points created so the coordinates line up (ie: the 3rd point on the polygon should have the x-value stored in index 2 of its array and the y-value stored in index 2 of its array) AND the number of points in the polygon. That would look like the below syntax.
+You could also make a filled rectangle (using `G_fill_rectangle();`) or a circle. FPT also allows you to make polygons. In order to make a polygon of any size, you need to have an array of all of the x-points and an array of all of the y-points created so the coordinates line up (ie: the 3rd point on the polygon should have the x-value stored in index 2 of its own array and the y-value also stored in index 2 of its own array) AND the number of points in the polygon. That would look like the below syntax.
 
 `G_polygon(x[], y[], numPoints);`
 
-Because making a point would 
+The last thing we'll go over here is drawing lines. This is probably the simplest one that can be done by using
+
+`G_line(x1, y1, x2, y2);`
+
+Because making a point on the window (using `G_point(x, y);`)would only make a tiny dot that's almost impossible to see, if you want users to be able to see points you make, you can draw either a little square or circle at that point that only has to be 3 or 4 pixels big. 
 
 ## Colors
 
-Making colors is really simple in FPT. It uses the RGB standard of colors from 0-1 so (0, 0, 0) would be black and (1, 1, 1) would be white. 
+Making colors is really simple in FPT. It uses the RGB standard of colors from 0 to 1 so (0, 0, 0) would be black and (1, 1, 1) would be white. If you want to use other colors you'll need to use a combination of numbers from 0 to 1 for the red, green, and blue values. Here are a few combinations that create some nice colors:
+
+Purple: `G_rgb(0.7, 0.7, 1);`
+Pink:   `G_rgb(0.9, 0.4, 0.8);`
+Blue:   `G_rgb(0.2, 0.5, 0.8);`
+Green:  `G_rgb(0.7, 0.9, 0.7);`
+
 ## Other Useful Tools
 
+### Wait keys and clicks
+If you aren't careful, the second your program completes it will close the window before you can see what your program actually did. In order to avoid this, you'll need to use wait. This will stop the program from closing or performing another function until a certain amount of time has passed. 
+
+`G_wait(time);`
+
+You can also use a wait key or a wait click. The wait key function is great for making a quit key to end a program (you can use wait key instead of just wait if you want) but it's also great for taking user input and having your program behave a certain way. For example, if you wanted the program to quit when you hit 'q' or if you wanted it to rotate when you hit 'r' you'd have to use a wait key like this
+
+`double key = G_wait_key();`
+
+Keep in mind that this will reference the ascii value on your keyboard, which is the numerical value that the computer assigns to each key on your keyboard, rather than knowing what letter it is so when you're referencing the keys use the character you're trying to reference. Here's an example, if you want for the 'q' key to quit your program then you'd use the following
+
+`double key = G_wait_key();
+if(key == 'q'){
+  exit(0); }`
+  
+Using the wait click function will work similarly, but if you want to use the location where the user clicked, it will save the coordinates into an array of size 2. In order to account for this, you'll need to make an array of 2 doubles to store this.
+
+`double place[2];
+G_wait_click(place);`
+
+### Clearing and Quitting
+If you're at the beginning of your program or you want to make a blank screen at some point you'll have to use the clear function. This will paint the entire window in the color you last defined using G_rgb() so be careful to reset your color. In order to do this you'll use
+
+`G_clear();`
+
+If you want to end your program at any point and close the graphics window you'll use
+
+`exit(0);`
+
 ## Compiling and Running Programs
+You'll be using the command line quite a bit in class and you'll be compiling and running all of your programs from there. You should be a little familiar with using the command line from CS 1 but this class introduces acom and ./a.out. 
