@@ -24,7 +24,41 @@ While both of our vector examples were two-dimensional, there's nothing special 
 
 ## 1.2 Vector Notation
 
-In order to rigorously talk about vectors in a way that is helpful and meaningful, we need to formalize some notational standards around the way we're going to think about vectors.
+In order to rigorously talk about vectors in a way that is helpful and meaningful, we need to formalize some notational standards around the way we're going to think about vectors. 
+
+The first thing that we need to wrap our heads around is that there are two main ways we can think of vectors and their shapes. The first, which we've already alluded to, is to think of a vector as its magnitude and its direction. Usually, we call the magnitude *r* and the direction *&theta;*, or sometimes *&phi;*. This is frequently a good way to conceptualize vectors, but mathematical operations are sometimes difficult. 
+
+A key insight is that a vector can be thought of as a set of numbers, each specifying how far to go in each direction. We can think of our vector as not only having an *r* component and a *&theta;* component, but also as having an *x* component and a *y* component. This is summarized in an image below:
+
+![1-4-proj]()
+
+The thing to remember is that if we have a vector in (*r, &theta;*) form, we can always convert to (*x, y*) form with the following relation:
+
+*x* = *r* * cos(&theta;)
+
+*y* = *r* * sin(&theta;)
+
+Similarly, if we have a vector in (*x,y*) form, we can rewrite it in (*r, &theta;*) form with the following relations:
+
+*r*= sqrt(*x^2* + *y^2*)
+
+*&theta;* = arctan(*y*/*x*)
+
+where sqrt() is the square root function, "^2" notation means "squared,"  and arctan() is the inverse tangent function.
+
+Now that we have a good understanding of the way that we can think of vectors, let's talk really specifically about notation. When we have a vector, we usually denote it as a letter with an arrow above it:
+
+![1-5-a]()
+
+When we want to talk about the length of that vector, we use the absolute value symbol. Some people simply leave off the arrow, but this can be confusing, so we'll stay away from that in this course.
+
+![1-6-magnitude]()
+
+Most people use one of three sets of notation to describe vectors: columnar lists, angle brackets, and unit vectors. These are summarized in the image below. 
+
+![1-7-notation]()
+
+Something important to note is that when we use unit vectors, what we're doing is rewriting our vector as a scalar (number)times a unit vector, which is a vector of length one. We usually assign a unit vector to each axis in our vector space, and we denote a vector as a unit vector with a "hat".
 
 ## 1.3 Vector Operations
 
