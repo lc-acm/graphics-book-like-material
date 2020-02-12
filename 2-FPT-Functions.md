@@ -1,6 +1,6 @@
 # Chapter 2: FPT Functions
 
-The FPT graphics functions will be new for most of you. FPT stands for "Freshman Programming Toolkit" and is Jeff's version of a graphics library that allows us to draw graphics on most operating systems in C. If you need help downloading FPT to your personal computer, visit [FPT Tutorial](https://github.com/lc-acm/fpt)
+The FPT graphics functions will be new for most of you. FPT stands for "Freshman Programming Toolkit" and is Jeff's version of a graphics library that allows us to draw graphics on most operating systems in C. If you need help downloading FPT to your personal computer, visit [FPT Set-Up Tutorial](https://github.com/lc-acm/fpt)
 
 ## Setting up a window
 
