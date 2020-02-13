@@ -147,3 +147,5 @@ The cross product of (*x*, *y*, *z*) X (*a*, *b*, *c*) = \[
                                                           \]
 
 ## 1.4 Why Should I Care?
+
+If you took nothing else from this document, hopefully you took that vectors are tools we can use to do things with complex spatial objects in a mathematically rigorous way. Later in this course, you will see the direct applications of this, and also if you study other fields like physics or linear algebra, vectors will be central to them.
