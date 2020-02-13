@@ -4,7 +4,7 @@ This chapter will go over the main concepts for one of your early labs. You shou
 
 ## The Goal
 
-In this lab you'll be building upon your click and save polygons and slowly fill up the polygon created with color. This may sound like a pretty easy task, but it turns out you'll be needing to use skills like finding intersection points, and sorting. Your finished program should look like this and the shape can be filled up using a key on the keyboard.
+In this lab you'll be building upon your click and save polygons and slowly fill up the polygon created with color. This may sound like a pretty easy task, but it turns out you'll be needing to use skills like finding intersection points and sorting. Your finished program should look like this and the shape can be filled up using a key on the keyboard.
 
 ![6-1-finishedProduct](/img/0/6-1-finishedProduct.mov)
 
@@ -12,7 +12,7 @@ In this lab you'll be building upon your click and save polygons and slowly fill
 
 ### Scan lines
 
-The easiest way to fill up the polygon is going to be "drawing" a bunch of invisible scan lines from the bottom of the screen to the very top. As you do this, you have to find if the scan line interersects with a part of the polygon (whether that is directly on one of the points or if it intersects the line created from connecting 2 points) 
+The easiest way to fill up the polygon is going to be "drawing" a bunch of horizontal, invisible scan lines from the bottom of the screen to the very top. As you do this, you have to find if the scan line interersects with a part of the polygon (whether that is directly on one of the points or if it intersects the line created from connecting 2 points) 
 
 ### How do I sort through an array (and why do I need to)? 
 ### How do I find intersection points?
