@@ -148,7 +148,7 @@ The cross product of (*x*, *y*, *z*) X (*a*, *b*, *c*) = \[
                                                           
                                                           ((x*b)-(y*a))in the z-direction
                                                           
-                                                          \]
+                                                          ]
 
 ## 1.4 Why Should I Care?
 
