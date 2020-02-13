@@ -141,9 +141,13 @@ Next, we need to find the magnitude of the cross-product resultant vector. It tu
 You could go about life computing cross-products like this - just using the right hand rule and computing the magnitude. This would be a real drag! Instead, there's a term-wise way to compute, if you have two vectors in the form (*x*, *y*, *z*).
 
 The cross product of (*x*, *y*, *z*) X (*a*, *b*, *c*) = \[
+
                                                           ((y*c)-(z*b))in the x-direction,
+                                                          
                                                           ((z*a)-(x*c))in the y-direction,
+                                                          
                                                           ((x*b)-(y*a))in the z-direction
+                                                          
                                                           \]
 
 ## 1.4 Why Should I Care?
