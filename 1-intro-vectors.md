@@ -124,4 +124,26 @@ Like the other operations, the dot product also has a geometric interpretation. 
 
 #### 1.3.4 The Cross Product
 
+The cross product is a very special thing. It's a way of multiplying a vector and a vector to get another vector. It's extremely useful and is the closest thing we have to regular "multiplication" with vectors, but unfortunately, it comes at a few costs. 
+
+The first cost of using the cross product is complexity. The cross product is complicated to think about, and it's complicated to compute. The other main cost of the cross product is the loss of "commutivity." When you multiply two normal numbers (scalars), *a* and *b*, it seems natural that *a* * *b* = *b* * *a*. This is NOT true under the cross product with vectors. **a** X **b** &neq; **b** X **a**. Pretty crazy right? The third, and probably most important consequence of the cross product is that it's only defined in three dimensions. Two dimensional vectors don't have a particularly useful notion of a cross product, and it's impossible to compute fourth or higher dimensional vectors. 
+
+Let's talk conceptually about how the cross product works. The cross product of two vectors will always give us a vector. The vector it returns must always be perpindicular to the two vectors input. As you may guess, the length of this vector is related to the lengths of the input vectors. 
+
+First, we need to take a step back. How can we figure out what direction a vector faces so that it can be perpindicular to two other vectors? Well, it turns out that nature can help us. There's something called the "Right Hand Rule" which works to help us do that. See the image below for guidance:
+
+![1-16-righthandrule]()
+
+Next, we need to find the magnitude of the cross-product resultant vector. It turns out that the magnitude of the product follows the relation below:
+
+|**a** X **b**| = |**a**|**b**||sin(&theta;), where &theta; is the angle between the vectors (find this with the dot product).
+
+You could go about life computing cross-products like this - just using the right hand rule and computing the magnitude. This would be a real drag! Instead, there's a term-wise way to compute, if you have two vectors in the form (*x*, *y*, *z*).
+
+The cross product of (*x*, *y*, *z*) X (*a*, *b*, *c*) = \[
+                                                          ((y*c)-(z*b))in the x-direction,
+                                                          ((z*a)-(x*c))in the y-direction,
+                                                          ((x*b)-(y*a))in the z-direction
+                                                          \]
+
 ## 1.4 Why Should I Care?
