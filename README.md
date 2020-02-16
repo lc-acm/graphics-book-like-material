@@ -4,8 +4,6 @@ Lewis & Clark's computer graphics course - CS 367 - builds upon a huge amount of
 
 This guide is NOT a replacement for attending class, and will not provide solutions to labs. It will, hopefully, serve as a useful reference which students can consult for additional information.
 
-It 
-
 The first version of this document was prepared by Haley Rovner and Ben Glick in Spring of 2020, based on the excellent teaching of Prof. Jeff Ely. Feel free to add your name to this page if you've contributed.
 
 ## Table of Contents
