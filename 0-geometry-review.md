@@ -75,7 +75,7 @@ To rotate a point (x,y) about an origin (x0, y0), first, connect the point (x,y)
 
 The transformed coordinates of point (x,y) will become (x * cos(&theta;) - y * sin(&theta;), x * cos(&theta;) + y * cos(&theta;))
 
-![0-11-rotation]()
+![0-11-rotation](/img/0/0-11-rotation.png)
 
 ### 0.3.3 Scaling
 
