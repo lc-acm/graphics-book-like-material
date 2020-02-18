@@ -26,9 +26,13 @@ Without any further ado, let's get into what we can actually do with these matri
 
 First up is matrix-scalar multiplication. To multiply a matrix by a scalar, you simply multiply a each element in that matrix by your scalar. See our example below:
 
-![4-2-](matrix-scalar-multiplication)
+![4-2-scalar-mult](matrix-scalar-multiplication)
 
 ### 4.2.2 Matrix Matrix Addition
+
+Next, we will cover matrix-matrix addition. To add two matrices to get a third matrix, the two input matrices must have the same dimensions (both columns and rows). Once you've verified this, you can add the two matrices together by simply adding corresponding terms. So, for matrix A and matrix B, for each position (m,n), Sum(m,n) = A(m,n) + B(m,n). See the image for and example:
+
+![4-3-matrix-addition](matrix-addition)
 
 ### 4.2.3 Matrix Matrix Multiplication
 
