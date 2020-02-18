@@ -49,7 +49,8 @@ When graphed, the sine and cosine functions create waves that are periodic. Thes
 ## 0.2 Distance Formula
 
 It's important to have a notion of distance. In this course we will be using something called Euclidian Distance which is defined through the Pythagorean Theorem. When finding the distance between 2 points, you must use something called the distance formula so consider the picture below:
-![0-9-euclid]()
+![0-9-euclid](/img/0/0-9-euclid.svg)
+![0-9.1-forumla](/img/0/0-9.1-formula.png)
 
 If you have a point 'a' and a point 'b' and you want to find the distance between them, then the distance is the square root of the (difference between the x-values squared + the difference between the y-values squared).  
 
