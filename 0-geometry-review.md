@@ -38,7 +38,7 @@ When in doubt, remember: **SOH CAH TOA:** **S**ine = **O**pposite/**H**ypotenuse
 ### 0.1.2 Circles & Values
 
 In Graphics, you'll be playing around with cirlces A LOT! You'll mostly be using unit circles as shown below:
-![0-6-unitCircle]()
+![0-6-unitCircle](/img/0/0-6-unitCircle.png)
 
 The unit circle (so named because of the radius of 1 unit), connects a lot of our triangle trig math to give us coordinates. It is important to remember that the cosine of a radian point on the unit circle corresponds to the x-value of that point, and that the sine of a radian point corresponds to the y-value.
 ![0-7-xy]()
