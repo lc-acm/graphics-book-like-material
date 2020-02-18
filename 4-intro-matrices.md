@@ -2,9 +2,15 @@
 
 Similarly to our chapter about Vectors, this chapter introduces a somewhat obscure mathematical construction that will at some point soon become incredibly important to your graphics education. Enter "The Matrix".
 
-The Matrix is simply a 2-dimensional arrangement of numbers that we can use to easily keep track of certain types of mathematical operatons. Using matrices will be of great help to us when we work with graphical objects, especially vectors.
-
 ## 4.1 What is a Matrix?
+
+The Matrix is simply a 2-dimensional arrangement of numbers that we can use to easily keep track of certain types of mathematical operatons. Using matrices will be of great help to us when we work with graphical objects, especially vectors. Matrices can be interpreted in a massive number of ways. In this chapter, we're going to discuss several of them, making sure to give a graphics context.
+
+Matrices are made up of columns and rows, and can have any rectangular dimensionality. A matrix, generally speaking, has coordinates starting from the top-leftmost element, increasing to the bottom-right, as shown in the image below.
+
+![4-1-matrix-coords](/img/0/4-1-matrix-coords)
+
+Matrices are closely related to vectors. If you haven't yet read chapter 1 of this document, please make sure you have a pretty good familiarity with vector math before you read this one. For example, the term "Dot Product" should mean something to you. 
 
 ## 4.2 Matrix Operations
 
