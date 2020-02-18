@@ -10,6 +10,10 @@ Matrices are made up of columns and rows, and can have any rectangular dimension
 
 ![4-1-matrix-coords](/img/0/re1i9ogssarmuhjlkzto.png)
 
+We will sometimes refer to an entire column of a matrix as a *column vector* and an entire row of a matrix as a *row vector*. This is because is many circumstances, we can interpret different parts of matrices just this way - as vectors. 
+
+In the vectors chapter, we tried to give geometric interpretation along with our descriptions of the vector operations. In this chapter, that would be somewhat more difficult, because there are so many different important interpretations of matrices. Instead, in this chapter, we will discuss the matrix operations with examples, and then provide various interpretations later.
+
 Matrices are closely related to vectors. If you haven't yet read chapter 1 of this document, please make sure you have a pretty good familiarity with vector math before you read this one. For example, the term "Dot Product" should mean something to you. 
 
 ## 4.2 Matrix Operations
