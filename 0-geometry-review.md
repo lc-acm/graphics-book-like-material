@@ -65,7 +65,7 @@ In this first introduction to affine transformations, we'll be considering the w
 
 The first, and simplest kind of affine transformation is a translation. As its name may suggest to you, a translation moves, or "translates" a point across the X-Y plane. The point will be moved by &Delta; x in the X-direction and  &Delta; y in the Y-direction. Using the common "ordered-pair" notation, a point (x,y) will become (x &Delta; x +, y +&Delta; y) under a translation.
 
-![0-10-translation](/img/0-0-10-rotation.png)
+![0-10-translation](/img/0-0-10-translation.png)
 
 ### 0.3.2 Rotation
 
