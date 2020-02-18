@@ -22,7 +22,7 @@ We can think about the vector having an action in the direction in which it is p
 
 While both of our vector examples were two-dimensional, there's nothing special about 2-D vectors (other than we can easily think about them in a computer screen or sheet of paper), and you will frequently be dealing with 3-D or even higher-dimensional vectors. The following image shows a 3-D vector.
 
-![1-3-3d]()
+![1-3-3d](/img/0/1-3-3d.sng)
 
 ## 1.2 Vector Notation
 
@@ -74,7 +74,7 @@ The first important operation with vectors is vector addition. There's a geometr
 
 Take two vectors, *a* and *b*. To add them, place them tip-to-tail, and the resulting vector *s* (for sum) will be the vector that connects the tail of *a* to the tip of *b*. This rule works in reverse as well. See the image below:
 
-![1-8-geom-add]()
+![1-8-geom-add](/img/0/1-8-genAdd)
 
 If this feels weird to you, remember that two vectors are identical if their magnitude and orientation are identical, regardless of where their tail starts.
 
