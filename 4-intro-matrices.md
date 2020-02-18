@@ -8,7 +8,7 @@ The Matrix is simply a 2-dimensional arrangement of numbers that we can use to e
 
 Matrices are made up of columns and rows, and can have any rectangular dimensionality. A matrix, generally speaking, has coordinates starting from the top-leftmost element, increasing to the bottom-right, as shown in the image below.
 
-![4-1-matrix-coords](/img/0/4-1-matrix-coords)
+![4-1-matrix-coords](/img/0/re1i9ogssarmuhjlkzto.png)
 
 Matrices are closely related to vectors. If you haven't yet read chapter 1 of this document, please make sure you have a pretty good familiarity with vector math before you read this one. For example, the term "Dot Product" should mean something to you. 
 
