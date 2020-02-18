@@ -12,23 +12,23 @@ These are so integral to this course that we're going to define them in painful 
 
 Given a triangle angle as below:
 
-![0-1-trriangle](), 
+![0-1-triangle](/img/0/0-1-triangle.png), 
 
 Focus on one angle, &theta; :
 
-![0-2-angle](), 
+![0-2-angle](/img/0/0-2-angle.png), 
 
 There are three main functions we care about.
 
 First, the **Sine function** `sin` measures the "height" of the angle. The sine is defined as `sin(&theta;)=(Opposite)/(Hypotenuse)`, as below:
 
-![0-3-sin](),
+![0-3-sin](/img/0/0-3-sin.png),
 
 Next, the **Cosine function** `cos` measures the "width" of the angle. The cosine is defined as `cos(&theta;)=(Adjacent)/(Hypotenuse)`, as below:
-![0-4-cos]()
+![0-4-cos](/img/0/0-4-cos.png)
 
 Finally, the **Tangent function** `tan` measures the "angular width" of the angle. The tangent is defined as `tan(&theta;)=(Opposite)/(Adjacent)`, as below:
-![0-5-tan]()
+![0-5-tan](/img/0/0-5-tan.png)
 
 Additionally, the tangent of an angle is related to the sine and cosine. tan(&theta;)=(sin(&theta;))/(cos(&theta;))
 
