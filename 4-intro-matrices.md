@@ -16,9 +16,17 @@ In the vectors chapter, we tried to give geometric interpretation along with our
 
 Matrices are closely related to vectors. If you haven't yet read chapter 1 of this document, please make sure you have a pretty good familiarity with vector math before you read this one. For example, the term "Dot Product" should mean something to you. 
 
+We're going to use a standard notation with our matrices - we're going to call the number of rows in a matrix *m* and the number of columns in a matrix *n*. We're going to generally use round brackets (parentheses) to surround our matrices. We'll also sometimes refer to specific elements of a matrix. For that, we'll use subscripts. The left subscript will be the row and the right subscript will be the column. All of this should look like the image above.
+
 ## 4.2 Matrix Operations
 
+Without any further ado, let's get into what we can actually do with these matrices. We can do all kinds of things, just like with vectors. Some of the things are a little bit more complex than with vectors, but trust us, it'll come in handy. We can add matrices, multiply matrices by scalars, and multiply matrices by other matrices.
+
 ### 4.2.1 Matrix Scalar Multiplication
+
+First up is matrix-scalar multiplication. To multiply a matrix by a scalar, you simply multiply a each element in that matrix by your scalar. See our example below:
+
+![4-2-](matrix-scalar-multiplication)
 
 ### 4.2.2 Matrix Matrix Addition
 
