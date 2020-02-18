@@ -36,16 +36,21 @@ Next, we will cover matrix-matrix addition. To add two matrices to get a third m
 
 ### 4.2.3 Matrix Matrix Multiplication
 
-## 4.3 Composition of Matrix Operations
-
-## 4.4 Matrices as Bases
-
-## 4.5 Matrices as Linear Operators
+### 4.2.4 Identity
 
 ## 4.6 Matrices as Transformations
+
+### Effect on Identity
 
 ### 4.6.1 Translation Matrices
 
 ### 4.6.2 Rotation Matrices
 
 ### 4.6.3 Scaling Matrices
+
+## 4.3 Composition of Matrix Operations
+
+## 4.5 Matrices as Linear Operators
+
+## 4.4 Matrices as Bases
+
