@@ -40,6 +40,16 @@ Now, we're going to get into the complex ones. First, we're going to try to mult
 
 Say you have a matrix *A* and a vector **_b_**. What happens when you multiply *A* * **_b_** ? Perhaps unsurprisingly, a matrix times a vector always yields a vector. 
 
+To multiply a matrix by a vector, we first need to make sure that what we're doing makes sense. To do this, we make sure that the length of the vector (the number of elements) is equal to the number of columns in the matrix. If it is not, we cannot perform our multiplication.
+
+Then, each element in our resultant vector will be the dot product of our vector with the corresponding row vector of the matrix. For example, see the image below:
+
+![4-4-matrix-vector-multiplication]()
+
+For a 3x3 example, see the image below:
+
+![4-5-matrix-vector-example]()
+
 ### 4.2.3 Matrix Matrix Multiplication
 
 ### 4.2.4 Identity
