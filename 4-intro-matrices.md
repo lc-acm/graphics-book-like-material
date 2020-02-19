@@ -34,23 +34,29 @@ Next, we will cover matrix-matrix addition. To add two matrices to get a third m
 
 ![4-3-matrix-addition](matrix-addition)
 
+### 4.2.3 Matrix Vector Multiplication
+
+Now, we're going to get into the complex ones. First, we're going to try to multiply a matrix by a vector. Rather inspiringly, this is called "matrix-vector multiplication". Sometimes, people also refer to this as a matrix "operating on" the vector. When we get into the later sections of this chapter, specifically 4.5 - "matrices as linear operators" and 4.3 - "matrices as transformations", we will cover this more. For now, let's just cover the mechanics of matrix-vector multiplication.
+
+Say you have a matrix *A* and a vector **_b_**. What happens when you multiply *A* * **_b_** ? Perhaps unsurprisingly, a matrix times a vector always yields a vector. 
+
 ### 4.2.3 Matrix Matrix Multiplication
 
 ### 4.2.4 Identity
 
-## 4.6 Matrices as Transformations
+## 4.3 Matrices as Transformations
 
 ### Effect on Identity
 
-### 4.6.1 Translation Matrices
+### 4.3.1 Translation Matrices
 
-### 4.6.2 Rotation Matrices
+### 4.3.2 Rotation Matrices
 
-### 4.6.3 Scaling Matrices
+### 4.3.3 Scaling Matrices
 
-## 4.3 Composition of Matrix Operations
+## 4.4 Composition of Matrix Operations
 
-## 4.5 Matrices as Linear Operators
+## 4.5 Matrices as Linear/Affine Operators
 
-## 4.4 Matrices as Bases
+## 4.6 Matrices as Bases
 
