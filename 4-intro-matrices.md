@@ -52,9 +52,34 @@ For a 3x3 example, see the image below:
 
 ### 4.2.3 Matrix Matrix Multiplication
 
+Next up, and penultimately, is matrix-matrix multiplication. In matrix-matrix multiplication, you multiply two matrices to get - you guessed it - another matrix. This is the most complex form of matrix multiplication, by far, but also, it's probably the most useful.
+
+To multiply two matrices, first, you need to figure out whether the two matrices can even be multiplied. We do this by examining their dimensionalities. Recall that *m* is the number of rows in a matrix, while *n* is the number of columns in a matrix. Therefore, the "width" of a row is the same thing as the number of columns. Conversely, the "height" of a column is the same thing as the number of rows. When we multiply matrices, we need the width of the rows in the first matrix to be equal to the height of the columns in the second matrix. Therefore, the *n* of the first matrix must be equal to the *m* of the second matrix. See the graphic below for an example:
+
+![4-6-matrix-matrix-compatibility]()
+
+After you know your matrices are compatible for multiplication, you then can move on to the computation. To find the value of each term in your matrix, you take the dot product of the row vector containing it from the first matrix and the column vector from the second matrix. 
+
+For example, if you're trying to figure out the value of the element in position 1-1 of your resultant, you'd take the first row-vector from the first matrix and the first column-vector from the second matrix, and take the dot product of them. The resulting scalar (remember, a scalar is just a number) goes in the 1-1 position of the resultant matrix. To continue, you could then take the dot product of the first row vector of the first matrix with the second column vector of the second matrix. The resultant of that operation would go in the 1-2 position of the resultant matrix. You'd continue, for each row and column in the input matrices.
+
+See the image below for some examples:
+
+![4-7-matrix-matrix-multiplication]()
+
+
 ### 4.2.4 Identity
 
+The *identity* operation is really a special case of the matrix multiplication. We actually have the same operation with normal multiplication of numbers. The idea of an *identity* is that multiplying something by an identity yields itself. With regular numbers, we this works with the special number 1. When you multiply any number by 1, you get that same number back. 
+
+There's something similar with matrices. In that case, what we do is we set up what's called an "identity matrix". The Identity Matrix is composed of zeros everywhere except the diagonal, which has ones. The 3x3 identity matrix is shown below.
+
+![4-8-3x3-identity-matrix]()
+
+Once you have a matrix that looks like the identity matrix you want, you simply can multiply the matrix you're interested in by the identity, and if you did everything right, the same matrix you put in will pop out.
+
 ## 4.3 Matrices as Transformations
+
+
 
 ### Effect on Identity
 
