@@ -79,9 +79,17 @@ Once you have a matrix that looks like the identity matrix you want, you simply 
 
 ## 4.3 Matrices as Transformations
 
+Remember how earlier, we talked about matrices having several different geometric and mathematical interpretations? The most important one we're going to deal with in this course is a matrix as a transformation. A matrix can "operate on" other mathematical objects as we have discussed above, with the various methods of multiplying a matrix by another object. In this case, we're going to consider points, and the ways that matrices can operate on points to change their location. 
 
+Because there's no good mathematical notation of a "point" that we can operate on with matrices, we're going to represent these points as their "displacement vectors". Imagine you have a point A = (*a, b, c*) and an origin O = (*o1, o2, o3*). The displacement vector from O to A is computed by taking <*a-o1, b-o2, c-o3*>. In most cases, we can set the origin point to O=(*0,0,0*), in which case our displacement vector would simply be <*a,b,c*>. 
 
-### Effect on Identity
+Now, the way that we can think of matrices as transformations is to multiply our displacement vector by the matrix. The resultant vector of that multiplication will be a transformed displacement vector, pointing to where the point we care about has been moved. We say that the matrix "transformed" the point from the first displacement vector to the second one, through the multiplication.
+
+The specific type of transformation we care about in this course is called an "Affine Transformation". What that means is a transformation made up of one or a sequence of translations, rotations, or scales of a point or set of points.
+
+To think about how these affine transformations work, the usual tool we use is called a "unit vector". We consider a vector with a magnitude of 1, pointing exactly in the direction of one of our axes. For each axis we have, we generate a vector like this. After that, we transform them with an affine transformation matrix, and see where the transformed unit vector lands.
+
+People will sometimes refer to these unit vectors by many different names - *e_n* vectors, i,j,k, or just using their actual coordinates. We encourage you to google "unit vector notation" to learn more.
 
 ### 4.3.1 Translation Matrices
 
