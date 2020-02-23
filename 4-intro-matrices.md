@@ -139,6 +139,15 @@ To rotate a 3-dimensional vector around the Z-axis, multiply it by the following
 
 ### 4.3.3 Translation Matrices
 
+You may have noticed that so far, all of the matrices and vectors we've been dealing with have had matched dimensions. For example, our two-dimensional rotation matrix was 2x2 and the vector representing a 2d point is 2-long. We can do this because rotation and scaling are both examples of something called a *linear transformation.* One important property of a linear transformation is that, in n-dimensional space, it can always be represented by a multiplication of a vector of length n by an nxn matrix. 
+
+Unfortunately, our luck has run out when it comes to translation. Translation is not a linear transformation, but is instead part of a group called *affine transformations*. Fortunately, we're not completely out of options. It turns out that affine transformations can always be represented (in an n-dimensional space) as multiplication of a vector of length n+1 by an n+1xn+1 matrix. 
+
+
+
+For another exercise (if you're in the class, you'll have to do this anyways), try to figure out how to use a 4x4 matrix to represent rotations and scaling. You have the tools you need to do so.
+
+
 ## 4.4 Composition of Matrix Operations
 
 ## 4.5 Matrices as Linear/Affine Operators
