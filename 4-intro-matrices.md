@@ -143,14 +143,16 @@ You may have noticed that so far, all of the matrices and vectors we've been dea
 
 Unfortunately, our luck has run out when it comes to translation. Translation is not a linear transformation, but is instead part of a group called *affine transformations*. Fortunately, we're not completely out of options. It turns out that affine transformations can always be represented (in an n-dimensional space) as multiplication of a vector of length n+1 by an n+1xn+1 matrix. 
 
+To translate a vector by (&Delta; x,&Delta; y, &Delta; z), you can multiply it by the following matrix:
 
+
+![4-17-3d-translation-matrix]()
 
 For another exercise (if you're in the class, you'll have to do this anyways), try to figure out how to use a 4x4 matrix to represent rotations and scaling. You have the tools you need to do so.
 
 
 ## 4.4 Composition of Matrix Operations
 
-## 4.5 Matrices as Linear/Affine Operators
+So why do we want to do our transformations by multiplying matrices anyways? The most important reason is what we refer to as *composability*. This is the idea that we can do multiple transformations all at once by somehow combining many transformation matrices into one. 
 
-## 4.6 Matrices as Bases
-
+In our case, with matrices, we can do a really simple trick to compose transformations. If you have two matrices, each of which represent a single affine transformation, to compose them and create a matrix that will have the effect of performing one transformation, then another, you can simply multiply the two matrices against each other.
