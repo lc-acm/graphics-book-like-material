@@ -89,13 +89,55 @@ The specific type of transformation we care about in this course is called an "A
 
 To think about how these affine transformations work, the usual tool we use is called a "unit vector". We consider a vector with a magnitude of 1, pointing exactly in the direction of one of our axes. For each axis we have, we generate a vector like this. After that, we transform them with an affine transformation matrix, and see where the transformed unit vector lands.
 
-People will sometimes refer to these unit vectors by many different names - *e_n* vectors, i,j,k, or just using their actual coordinates. We encourage you to google "unit vector notation" to learn more.
+People will sometimes refer to these unit vectors by many different names - *e_n* vectors, i,j,k, or just using their actual coordinates. We encourage you to google "unit vector notation" to learn more. In this document, we're going to write out the actual unit vectors in their full, three-dimensional (and two-dimensional) form.
 
-### 4.3.1 Translation Matrices
+Another important note is that for the purposes of this text, we will use the standard "right-handed" coordinates, that is coordinates that follow the right hand rule, described in the vectors chapter.
+
+### 4.3.1 Scaling Matrices
+
+The first, and simplest, transformation matrix type that we care about is a scaling matrix. The scaling matrix, when operating on a vector, will scale the vector, or make it longer. An important difference between scaling matrices and scaling constants is that the scaling matrix can scale a vector by a different constant in different directions, while a scaling scalar (hehe) will always scale a vector by the same amount in every direction of the space the vector inhabits.
+
+The scaling matrix takes a very particular form. Specifically, it's a (possibly differentially) scaled version of the n-dimensional identity matrix. To scale uniformly by a constant, you can simply multiply the constant by the n-dimensional identity matrix. For example:
+
+![4-9-scaled-2x2-identity-matrix]()
+
+Let's see what happens when we multiply the x- and y- unit vectors by this resulting matrix.:
+
+![4-10-scaled-2x2-identity-matrix-unitvectors]()
+
+Now, let's see what happens to another vector after this transformation:
+
+![4-11-scaled-2x2-identity-matrix-transformation]()
+
+What if we differentially scale (have different constants at different points down the diagonal):
+
+![4-12-differential-scaling-2x2]()
+
+As you can see, we can do all kinds of scaling on these vectors.
 
 ### 4.3.2 Rotation Matrices
 
-### 4.3.3 Scaling Matrices
+The next transformation we're going to work with are rotations. Recall (from chapter 1) that a rotations represent "rotating" a vector about an origin point. In this case, our origin point is always THE origin (0,0). In two dimensions, the rotation matrix is rather simple. To produce a rotational transformation with angle &theta; , you multiply the 2-d vector by the following matrix:
+
+![4-13-2d-rotation-matrix]()
+
+In three dimensions, unfortunately, there are some complexities that we need to take into account. There are now three possible axes of rotation. Any object (or vector) living in three-dimensional space can rotate around the *x,y* or *z* axes, or any combination thereof. For simplicity's sake, we're only going to cover the X, Y, and Z versions of 3d rotation matrices.
+
+We encourage all of you to derive these matrices yourselves, but for now, we're just going to state them as fact. If you need help figuring out why they make sense, the best thing to do is to just come up with some vectors and multiply them by the rotation matrices, drawing pictures along the way, to make sure that you understand what's going on.
+
+To rotate a 3-dimensional vector around the X-axis, multiply it by the following matrix:
+
+![4-14-3d-x-rotation-matrix]()
+
+To rotate a 3-dimensional vector around the Y-axis, multiply it by the following matrix:
+
+![4-15-3d-y-rotation-matrix]()
+
+To rotate a 3-dimensional vector around the Z-axis, multiply it by the following matrix:
+
+![4-16-3d-z-rotation-matrix]()
+
+### 4.3.3 Translation Matrices
 
 ## 4.4 Composition of Matrix Operations
 
