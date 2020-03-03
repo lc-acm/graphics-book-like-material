@@ -24,12 +24,6 @@
 
 ### 7.2.5 Rotation Matrices
 
-#### 7.2.5.1 X-rotation matrices
-
-#### 7.2.5.2 Y-rotation matrices
-
-#### 7.2.5.3 Z-rotation matrices
-
 ### 7.2.6 Scaling Matrices
 
 
