@@ -8,4 +8,6 @@
 
 ## 9.4 Projection Algorithm
 
+## 9.5 3D Transformation Matrices
+
 ## Lab 9.1 3D Wireframes
