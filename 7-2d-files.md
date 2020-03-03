@@ -12,6 +12,8 @@
 
 ### 7.1.5 `.xy` and `.xyz` files
 
+### 7.1.6 Drawing `.xy` and `.xyz` files
+
 ## 7.2 Matrix-based Drawing Tools
 
 ### 7.2.1 Safety
