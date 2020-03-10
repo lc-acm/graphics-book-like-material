@@ -156,3 +156,10 @@ For another exercise (if you're in the class, you'll have to do this anyways), t
 So why do we want to do our transformations by multiplying matrices anyways? The most important reason is what we refer to as *composability*. This is the idea that we can do multiple transformations all at once by somehow combining many transformation matrices into one. 
 
 In our case, with matrices, we can do a really simple trick to compose transformations. If you have two matrices, each of which represent a single affine transformation, to compose them and create a matrix that will have the effect of performing one transformation, then another, you can simply multiply the two matrices against each other.
+
+
+## Lab 4: Matrix Composition
+
+You want to first, translate an object to the point (200, 300, 400). After that, you want to rotate the object about the Y-axis, by 55 degrees. Finally, you want to resize the object by a factor of twelve.
+
+Create three transformation matrices, each of which represent one of these steps. After that, multiply them together to obtain a single matrix which represents sequentially performing these transformations.
