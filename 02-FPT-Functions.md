@@ -81,3 +81,8 @@ Here is an example of what a simple program drawing a circle, polygon, and recta
 Once you run this program from the command line (as shown in the picture above) it will look like this
 
 ![2-2-output](/img/0/2-2-output.png)
+
+
+## Lab 2: FPT Use
+
+Make your own fun polygon, compile it, take a screenshot, and send it to <linusbrogan@lclark.edu>
