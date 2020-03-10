@@ -21,3 +21,7 @@ By now, hopefully you know how to compile and run FPT code. If not, please read 
 ### "buttons"
 
 ### click and save
+
+## Lab 5: The Wheel
+
+Use your pseudocode from Lab 0, to make a pinwheel which will spin about some point in the 2-d plane.
