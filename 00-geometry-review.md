@@ -82,3 +82,11 @@ The transformed coordinates of point (x,y) will become (x * cos(&theta;) - y * s
 The final kind of transformation we'll consider is a scaling. To think about scaling, we'll need to abandon our thinking about points and start to consider shapes. Consider a polygon with three vertices (a triangle). The vertices are at points (x1,y1), (x2,y2), and (x3,y3). We want to scale this polygon by a factor of *k*. What we do is multiply each coordinate by *k*, to find the new coordinates: (k * x1, k * y1), (k * x2, k * y2), and (k * x3, k * y3)
 
 ![0-12-scale]()
+
+## Lab 0: Point on a circle.
+
+You have a point at position (x,y). First, calculate the radius of the circle that point lies on.
+
+Next, think about what transformations you would need to do, in order to make the point propagate around the circle.
+
+Write down some pseudocode that you think will make your point go around the circle. Be as pedantic as you want. Assume that you have the functions `translate(point)`, `rotate(point)`, and `scale(point)`. Remember that you have to bring an object to the center before you can rotate it
