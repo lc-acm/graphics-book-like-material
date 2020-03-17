@@ -12,7 +12,7 @@ In this lab you'll be building upon your click and save polygons and slowly fill
 
 ### Scan lines
 
-The easiest way to fill up the polygon is going to be "drawing" a bunch of horizontal, invisible scan lines from the bottom of the screen to the very top. As you do this, you have to find if the scan line interersects with a part of the polygon (whether that is directly on one of the points or if it intersects the line created from connecting 2 points) 
+The easiest way to fill up the polygon is going to be "drawing" a bunch of horizontal, invisible scan lines (lines that will check if you're finding an intersection with the polygon) from the bottom of the screen to the very top. As you do this, you have to find if the scan line interersects with a part of the polygon (whether that is directly on one of the points or if it intersects the line created from connecting 2 points). The point of doing this will be to eventually draw the portion of the line that is inside of the polygon with color so as you hold down a key it will look like the polygon is being filled up with color. 
 
 ### How do I sort through an array (and why do I need to)? 
 ### How do I find intersection points?
